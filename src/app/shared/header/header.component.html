@@ -1,0 +1,14 @@
+<div class="header">
+  <h1 class="logo"><a>Portifolio</a></h1>
+  <nav class="tabs">
+    <ng-container *ngFor="let tab of tabs">
+      <a [routerLink]="tab.link" routerLinkActive="active">
+        {{tab.label}}
+      </a>
+    </ng-container>
+  </nav>
+</div>
+<footer class="footer">
+  <div class="copyright">Copyright © 2023 Bluiz</div>
+  <div class="credits">Desenvolvido por <a href="#">Bruno Perez</a></div>
+</footer>

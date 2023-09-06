@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Alinhar os elementos à esquerda e à direita */
+  align-items: center; /* Alinhar verticalmente no centro */
+  background-color: #547fd1;
+  height: 80px;
+  padding: 0 20px; /* Adicionar espaço de preenchimento para separar o conteúdo das bordas */
+}
+
+.logo {
+  margin: 0; /* Remover margem padrão do h1 */
+}
+
+.tabs {
+  display: flex;
+  gap: 10px; /* Adicionar espaçamento entre os botões */
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+
+  &:hover {
+    color: #DBE0E5;
+    background-color: rgba(245, 245, 245, 0.1);
+    border-radius: 2px;
+  }/* ... (seu código CSS anterior) ... */
+
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: #0062d3;
+}
+
+.footer .copyright {
+  margin-bottom: 0.3rem;
+}
+
+.footer .credits {
+  margin-bottom: 0;
+}
+
+.footer .credits a {
+  color: #fff;
+}
