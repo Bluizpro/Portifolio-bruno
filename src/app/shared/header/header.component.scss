@@ -1,53 +1,66 @@
+/* Estilo para o cabeçalho (header) */
 .header {
   display: flex;
-  justify-content: space-between; /* Alinhar os elementos à esquerda e à direita */
-  align-items: center; /* Alinhar verticalmente no centro */
-  background-color: #547fd1;
-  height: 80px;
-  padding: 0 20px; /* Adicionar espaço de preenchimento para separar o conteúdo das bordas */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96b5ef;
+    height: 59px;
+    padding: 0 20px;
+    margin-bottom: 0px;
+    margin-top: -8px;
+    margin-left: -9px;
+    margin-right: -8px;
 }
-
+/* Estilo para a classe logo */
 .logo {
-  margin: 0; /* Remover margem padrão do h1 */
+  margin: 0; /* Remover a margem padrão do h1 */
 }
 
+/* Estilo para as abas (tabs) */
 .tabs {
   display: flex;
   gap: 10px; /* Adicionar espaçamento entre os botões */
 }
 
+/* Estilo para os links dentro das abas */
 .tabs a {
   text-decoration: none;
-  color: #fff;
+  color: #080808;
   font-weight: 600;
   padding: 10px;
 
+  /* Estilo para o hover (quando o mouse passa por cima) dos links */
   &:hover {
     color: #DBE0E5;
     background-color: rgba(245, 245, 245, 0.1);
     border-radius: 2px;
-  }/* ... (seu código CSS anterior) ... */
+  }
 
+  /* ... (seu código CSS anterior) ... */
 }
+
+/* Estilo para o rodapé (footer) */
 .footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
-  color: #fff;
-  padding: 25px 0;
-  background: #0062d3;
+  color: #080808;
+  padding: 12px 0;
+  background: #96b5ef
 }
-
+/* Estilo para o texto de direitos autorais no rodapé */
 .footer .copyright {
   margin-bottom: 0.3rem;
 }
 
+/* Estilo para os créditos no rodapé */
 .footer .credits {
   margin-bottom: 0;
 }
 
+/* Estilo para os links dentro dos créditos no rodapé */
 .footer .credits a {
-  color: #fff;
+  color: #000;
 }

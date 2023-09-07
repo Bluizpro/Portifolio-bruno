@@ -1,15 +1,37 @@
-.paralax-mf {
-    position: relative;
-    padding: 8rem 0;
+#hero.hero {
+  background-image: url(../../../assets/img/dev-carreira3.jpg);
+  background-size: cover; /* A imagem se ajustará para cobrir toda a tela */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-position: right center;
+  height: 82vh;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+
+
+
+#hero.hero .hero-content {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#hero.hero .hero-content .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#hero.hero .hero-content .table-cell .container {
+  /* Estilo para o título dentro do contêiner */
+ 
+
+  /* Estilo para o subtítulo dentro do contêiner */
+  .hero-subtitle {
+    font-size: 1.5em;
+    color: #00FF00; /* Altere para a cor desejada (verde neste exemplo) */
+    text-align: right; /* Ajusta a posição das letras para a direita */
   }
-  
-  .display-table {
-    width: 100%;
-    height: 100%;
-    display: table;
-  }
-  
-  .table-cell {
-    display: table-cell;
-    vertical-align: middle;
-  }
+}
