@@ -1,0 +1,32 @@
+#about {
+  font-family: "system-ui", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  .row {
+    .col-md-6 {
+      .row {
+        .col-sm-6.col-md-5 {
+          .about-img {
+            img {
+              max-width: 10rem;
+              float: left;
+              margin-right: 19px; // Add some margin between the image and text
+            }
+          }
+        }
+
+        .col-sm-6.col-md-7 {
+          .about-info {
+            p {
+              margin-bottom: 20px; // Add margin to create space between paragraphs
+              font-size: 20px; // Increase the font size as needed (e.g., 20px)
+            }
+          }
+
+          .skill-mf {
+            // Add any additional styles for the skills section if needed
+          }
+        }
+      }
+    }
+  }
+}

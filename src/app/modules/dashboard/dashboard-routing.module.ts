@@ -7,9 +7,12 @@ const routes: Routes = [{
   children: [
    // { path: 'planos', loadChildren: () => import('./planos/planos.module').then(m => m.PlanosModule) },
     { path: 'contatos', loadChildren: () => import('../contatos/contatos.module').then(m => m.ContatosModule) },
-    { path: 'inicios', loadChildren: () => import ( '../dashboard/dashboard.module').then(m => m.DashboardModule)}
+    { path: 'inicios', loadChildren: () => import ( '../dashboard/dashboard.module').then(m => m.DashboardModule)},
+   // {path: 'chatbot', loadChildren: () => import('../chatbot/chatbot.module').then(m => m.ChatbotModule)},
+
   ]
 }];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

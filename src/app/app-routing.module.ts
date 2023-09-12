@@ -21,11 +21,13 @@ const routes: Routes = [ {
   loadChildren: () =>
     import('./modules/sobre/sobre.module').then((m) => m.SobreModule),
 },
+
 {
-  path: '**',
+  path: '',
   redirectTo: 'dashboard',
   pathMatch: 'full',
 },
+
 
 ];
 
